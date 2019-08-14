@@ -1,6 +1,6 @@
 i=0
 while i<10:
-    print(i)
+    print("{}. kunja".format(i))
+    print(f"{i}. kunja")
     i=i+1
 
-print("kunja")

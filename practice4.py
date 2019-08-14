@@ -9,12 +9,12 @@ print(a["a"])'''
 print(a["a"])
 print(a["b"])
 print(a["c"])'''
-def patten(letter):
+'''def patten(letter):
     ptte={1:"  *  ",2:" *** ",3:"*****"}
     a={"a":[1,2,3],"b":[3,2,1]}
     for i in a[letter]:
         print(ptte[i])
-
-
-patten("b")
-
+patten("a")'''
+sequence = {'p', 'a', 's', 'k'}
+for val in sequence:
+    print(val)

@@ -4,7 +4,10 @@ operator={
     "mul":"*",
     "div":"/"
 }
-print(operator["add"])
+#print(operator["add"])
 a=input()
 b=input()
 print(operator.get("+",int(a)+int(b)))
+print(operator.get("-",int(a)-int(b)))
+print(operator.get("*",int(a)*int(b)))
+print(operator.get("/",int(a)/int(b)))

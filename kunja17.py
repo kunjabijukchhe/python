@@ -4,7 +4,7 @@ guess=""
 while guess!=secret:
     guess=input("enter a guess: ")
 print("you win")'''
-secret="kunja"
+'''secret="kunja"
 guess=""
 guess_count=0
 guess_limit=3
@@ -20,4 +20,4 @@ while guess!=secret and not(out_of_guesses):
 if out_of_guesses:
     print("out of guesses,You lose")
 else:
-    print("you win")
+    print("you win")'''
