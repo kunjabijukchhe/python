@@ -1,4 +1,4 @@
-'''
+
 from IPython.display import clear_output
 def borad(b):
     print(b[7]+"|"+b[8]+"|"+b[9])
@@ -8,17 +8,16 @@ def borad(b):
     print(b[1]+"|"+b[2]+"|"+b[3])
 
 c=["#","X","O","X","O","X","O","X","O","X"]
-borad(c)'''
+borad(c)
 def player():
     mark=""
     while mark!="X" and mark!="O":
         mark=input("Player1, choose X or O: ")
-    player1=mark
-    if player1=="X":
-        player2="O"
+
+    if mark=="X":
+        return ("X","O")
     else:
-        player2="X"
+        return ("O","X")
 
+player1,player2=player()
 
-    return(player1,player2)
-a,b=player()

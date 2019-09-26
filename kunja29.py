@@ -1,4 +1,5 @@
 from chef import chef
 
-mychef=chef()
-mychef.make_chicken()
+chef().make_chicken()
+chef().make_salad()
+chef().make_special_disk()

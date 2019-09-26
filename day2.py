@@ -1,0 +1,319 @@
+'''def cude(a,b):
+    return a*b
+
+c=int(input())
+d=int(input())
+print(cude(c,d))
+
+def cude (a):
+    return a**3
+
+b=int(input())
+print(cude(b))
+
+for i in range(1,1000):
+    print(i)'''
+'''a=open("kunjabijukchhe.txt","w")
+for i in range(1,1001):
+     a.write(str(i))
+     a.write(". Kunja Bijukchhe\n")'''
+
+'''a="kunja bijukchhe"
+for i in a.split():
+     print(i)'''
+'''# importing randint function
+# from random module
+from random import randint
+
+
+# Function which generates a new
+# random number everytime it executes
+def generator():
+    return randint(1, 10)
+
+
+# Function takes user input and returns
+# true or false depending whether the
+# user wins the lucky draw!
+def rand_guess():
+    # calls generator() which returns a
+    # random integer between 1 and 10
+    random_number = generator()
+
+    # defining the number of
+    # guesses the user gets
+    guess_left = 3
+
+    # Setting a flag variable to check
+    # the win-condition for user
+    flag = 0
+
+    # looping the number of times
+    # the user gets chances
+    while guess_left > 0:
+
+        # Taking a input from the user
+        guess = int(input("Pick your number to "
+                          "enter the lucky draw\n"))
+
+        # checking whether user's guess
+        # matches the generated win-condition
+        if guess == random_number:
+
+            # setting flag as 1 if user guessses
+            # correctly and then loop is broken
+            flag = 1
+            break
+
+        else:
+
+            # If user's choice doesn't match
+            # win-condition then it is printed
+            print("Wrong Guess!!")
+
+            # Decrementing number of
+        # guesses left by 1
+        guess_left -= 1
+
+    # If win-condition is satisfied then,
+    # the function rand_guess returns True
+    if flag is 1:
+        return True
+
+    # Else the function returns False
+    else:
+        return False
+
+
+# Driver code
+if __name__ == '__main__':
+    if rand_guess() is True:
+        print("Congrats!! You Win.")
+    else:
+        print("Sorry, You Lost!")'''
+
+from day3 import kunja
+
+kunja().name()
+
+
+kunja().age()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
