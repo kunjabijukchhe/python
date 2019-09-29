@@ -17,6 +17,6 @@ def run_test(questions):
         answer=input(q.prompt)
         if answer == q.answer:
             score+=1
-    print("You got "+str(score)+ "/"+str(len(nameofquestion))+" correct")
+    print("You got {}/{} correct".format(score,len(nameofquestion)))
 
 run_test(question)

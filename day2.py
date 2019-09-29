@@ -91,13 +91,24 @@ if __name__ == '__main__':
         print("Congrats!! You Win.")
     else:
         print("Sorry, You Lost!")'''
+'''class circle:
+    pi = 3.14
+    def __init__(self,radius):
 
-from day3 import kunja
+        self.radius=radius
+        self.area=radius*radius*circle.pi
+    def circumfrence(self):
+        return self.radius*self.pi*2'''
+cont = "Y"
+while cont.upper()== "Y":
+    for i in range(2):
+        print(i)
+    cont = input("Continue?y/n:")
+    if cont == "n":
+        break
 
-kunja().name()
 
 
-kunja().age()
 
 
 
